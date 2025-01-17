@@ -13,6 +13,9 @@
           rgba(255, 95, 73, 0.12) 100%
         );
       }
+      .transition-transform {
+        transition: transform 0.3s ease-in-out;
+      }
       @media (max-width: 992px) {
         .nav-contents li {
           font-size: 12px;
@@ -103,7 +106,7 @@
 
     <!--about section starts here-->
     <div
-      class="m-auto mt-[88px] flex-col justify-center items-center w-full px-10 md:px-[100px]"
+      class="m-auto mt-[88px] flex-col justify-center items-center w-full px-[50px] md:px-[100px]"
     >
       <div class="flex wrapper-about">
         <!-- left content section -->
@@ -355,5 +358,785 @@
         </div>
       </div>
     </div>
+
+    <!--Education and work section starts here-->
+    <div
+      class="flex flex-wrap justify-evenly px-[40px] md:px-[100px] gap-6 py-[80px]"
+    >
+      <!-- Education Section -->
+      <div class="flex flex-col gap-2 w-[90%] md:w-[30%]">
+        <div class="flex items-center gap-2">
+          <div class="w-6 md:w-8 h-[2px] bg-[#1777E5] rounded-2xl"></div>
+          <h1 class="uppercase text-[#1777E5] text-sm md:text-lg">Education</h1>
+        </div>
+
+        <div class="mt-2 md:mt-9">
+          <p class="text-xs md:text-sm text-[#1777E5] pb-2">
+            2021 - Present ∙ UK
+          </p>
+          <h1 class="font-semibold text-sm md:text-[20px]">
+            Website Design Course
+          </h1>
+          <p class="pt-[16px] text-[#5E6971] text-sm md:text-lg">
+            Bachelor's Degree in Computer Science ABC Technical Institute,
+            Jefferson, Missouri.
+          </p>
+        </div>
+
+        <div class="mt-2 md:mt-9">
+          <p class="text-xs md:text-sm text-[#1777E5] pb-2">
+            2016 - 2019 ∙ Cambridge University
+          </p>
+          <h1 class="font-semibold text-sm md:text-[20px]">
+            Bachelor of Philosophy (B. Phil.)
+          </h1>
+          <p class="pt-[16px] text-[#5E6971] text-sm md:text-lg">
+            Coursework - Git, WordPress, Javascript, iOS, Android.
+          </p>
+        </div>
+
+        <div class="mt-2 md:mt-9">
+          <p class="text-xs md:text-sm text-[#1777E5] pb-2">
+            2010 - 2014 ∙ Oxford University
+          </p>
+          <h1 class="font-semibold text-sm md:text-[20px]">
+            Bachelor of Engineering (B. Eng.)
+          </h1>
+          <p class="pt-[16px] text-[#5E6971] text-sm md:text-lg">
+            Bachelor's Degree in Computer Science ABC Technical Institute,
+            Jefferson, Missouri.
+          </p>
+        </div>
+      </div>
+
+      <!-- Work History Section -->
+      <div class="flex flex-col gap-2 w-[90%] md:w-[30%]">
+        <div class="flex items-center gap-2">
+          <div class="w-6 md:w-8 h-[2px] bg-[#FF5F49] rounded-2xl"></div>
+          <h1 class="uppercase text-[#FF5F49] text-sm md:text-lg">
+            Work History
+          </h1>
+        </div>
+
+        <div class="mt-2 md:mt-9">
+          <p class="text-xs md:text-sm text-[#FF5F49] pb-2">
+            2019 - Present ∙ Google
+          </p>
+          <h1 class="font-semibold text-sm md:text-[20px]">
+            Bachelor of Philosophy (B. Phil.)
+          </h1>
+          <p class="pt-[16px] text-[#5E6971] text-sm md:text-lg">
+            Collaborate with creative and development teams on the execution of
+            ideas.
+          </p>
+        </div>
+
+        <div class="mt-2 md:mt-9">
+          <p class="text-xs md:text-sm text-[#FF5F49] pb-2">
+            2016 - 2019 ∙ Apple
+          </p>
+          <h1 class="font-semibold text-sm md:text-[20px]">
+            Bachelor of Philosophy (B. Phil.)
+          </h1>
+          <p class="pt-[16px] text-[#5E6971] text-sm md:text-lg">
+            Monitored technical aspects of the front-end delivery for projects.
+          </p>
+        </div>
+
+        <div class="mt-2 md:mt-9">
+          <p class="text-xs md:text-sm text-[#FF5F49] pb-2">
+            2010 - 2014 ∙ Nasa
+          </p>
+          <h1 class="font-semibold text-sm md:text-[20px]">
+            Bachelor of Philosophy (B. Phil.)
+          </h1>
+          <p class="pt-[16px] text-[#5E6971] text-sm md:text-lg">
+            Optimize your website and apps performance using latest technology.
+          </p>
+        </div>
+      </div>
+
+      <!-- Tools I Use Section -->
+      <div class="flex flex-col gap-1 md:gap-2 w-[90%] md:w-[30%]">
+        <div class="flex items-center gap-2 mb-2 md:mb-9">
+          <div class="w-6 md:w-8 h-[2px] bg-[#2DB24A] rounded-2xl"></div>
+          <h1 class="uppercase text-[#2DB24A]">Tools I Use</h1>
+        </div>
+        <div class="flex flex-wrap gap-3 md:gap-5">
+          <div
+            class="rounded-[6px] bg-white shadow-[0px_8px_24px_0px_rgba(18,19,20,0.04)] w-24 h-auto py-6 flex flex-col items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+            >
+              <path
+                d="M24.1667 2.5C22.3231 2.5 20.8333 3.98976 20.8333 5.83333V14.1667C20.8333 16.0102 22.3231 17.5 24.1667 17.5C26.0102 17.5 27.5 16.0102 27.5 14.1667V5.83333C27.5 3.98976 26.0102 2.5 24.1667 2.5Z"
+                fill="#EBB22D"
+              />
+              <path
+                d="M34.1667 10.8333C32.3231 10.8333 30.8333 12.3231 30.8333 14.1667V16.6667C30.8333 17.1269 31.2064 17.5 31.6667 17.5H34.1667C36.0102 17.5 37.5 16.0102 37.5 14.1667C37.5 12.3231 36.0102 10.8333 34.1667 10.8333Z"
+                fill="#EBB22D"
+              />
+              <path
+                d="M15.8333 22.5C13.9898 22.5 12.5 23.9898 12.5 25.8333V34.1667C12.5 36.0102 13.9898 37.5 15.8333 37.5C17.6769 37.5 19.1667 36.0102 19.1667 34.1667V25.8333C19.1667 23.9898 17.6769 22.5 15.8333 22.5Z"
+                fill="#EBB22D"
+              />
+              <path
+                d="M5.83333 22.5C3.98976 22.5 2.5 23.9898 2.5 25.8333C2.5 27.6769 3.98976 29.1667 5.83333 29.1667C7.6769 29.1667 9.16667 27.6769 9.16667 25.8333V23.3333C9.16667 22.8731 8.79357 22.5 8.33333 22.5H5.83333Z"
+                fill="#EBB22D"
+              />
+              <path
+                d="M25.8333 20.8333C23.9898 20.8333 22.5 22.3231 22.5 24.1667C22.5 26.0102 23.9898 27.5 25.8333 27.5H34.1667C36.0102 27.5 37.5 26.0102 37.5 24.1667C37.5 22.3231 36.0102 20.8333 34.1667 20.8333H25.8333Z"
+                fill="#EBB22D"
+              />
+              <path
+                d="M23.3333 30.8333C22.8731 30.8333 22.5 31.2064 22.5 31.6667V34.1667C22.5 36.0102 23.9898 37.5 25.8333 37.5C27.6769 37.5 29.1667 36.0102 29.1667 34.1667C29.1667 32.3231 27.6769 30.8333 25.8333 30.8333H23.3333Z"
+                fill="#EBB22D"
+              />
+              <path
+                d="M5.83333 12.5C3.98976 12.5 2.5 13.9898 2.5 15.8333C2.5 17.6769 3.98976 19.1667 5.83333 19.1667H14.1667C16.0102 19.1667 17.5 17.6769 17.5 15.8333C17.5 13.9898 16.0102 12.5 14.1667 12.5H5.83333Z"
+                fill="#EBB22D"
+              />
+              <path
+                d="M14.1667 2.5C12.3231 2.5 10.8333 3.98976 10.8333 5.83333C10.8333 7.6769 12.3231 9.16667 14.1667 9.16667H16.6667C17.1269 9.16667 17.5 8.79357 17.5 8.33333V5.83333C17.5 3.98976 16.0102 2.5 14.1667 2.5Z"
+                fill="#EBB22D"
+              />
+              <path
+                d="M15.8333 22.5C13.9898 22.5 12.5 23.9898 12.5 25.8333V34.1667C12.5 36.0102 13.9898 37.5 15.8333 37.5C17.6769 37.5 19.1667 36.0102 19.1667 34.1667V25.8333C19.1667 23.9898 17.6769 22.5 15.8333 22.5Z"
+                fill="#DF1D5A"
+              />
+              <path
+                d="M5.83333 22.5C3.98976 22.5 2.5 23.9898 2.5 25.8333C2.5 27.6769 3.98976 29.1667 5.83333 29.1667C7.6769 29.1667 9.16667 27.6769 9.16667 25.8333V23.3333C9.16667 22.8731 8.79357 22.5 8.33333 22.5H5.83333Z"
+                fill="#DF1D5A"
+              />
+              <path
+                d="M5.83333 12.5C3.98976 12.5 2.5 13.9898 2.5 15.8333C2.5 17.6769 3.98976 19.1667 5.83333 19.1667H14.1667C16.0102 19.1667 17.5 17.6769 17.5 15.8333C17.5 13.9898 16.0102 12.5 14.1667 12.5H5.83333Z"
+                fill="#DF1D5A"
+              />
+              <path
+                d="M14.1667 2.5C12.3231 2.5 10.8333 3.98976 10.8333 5.83333C10.8333 7.6769 12.3231 9.16667 14.1667 9.16667H16.6667C17.1269 9.16667 17.5 8.79357 17.5 8.33333V5.83333C17.5 3.98976 16.0102 2.5 14.1667 2.5Z"
+                fill="#DF1D5A"
+              />
+              <path
+                d="M24.1667 2.5C22.3231 2.5 20.8333 3.98976 20.8333 5.83333V14.1667C20.8333 16.0102 22.3231 17.5 24.1667 17.5C26.0102 17.5 27.5 16.0102 27.5 14.1667V5.83333C27.5 3.98976 26.0102 2.5 24.1667 2.5Z"
+                fill="#36C5F1"
+              />
+              <path
+                d="M34.1667 10.8333C32.3231 10.8333 30.8333 12.3231 30.8333 14.1667V16.6667C30.8333 17.1269 31.2064 17.5 31.6667 17.5H34.1667C36.0102 17.5 37.5 16.0102 37.5 14.1667C37.5 12.3231 36.0102 10.8333 34.1667 10.8333Z"
+                fill="#36C5F1"
+              />
+              <path
+                d="M5.83333 12.5C3.98976 12.5 2.5 13.9898 2.5 15.8333C2.5 17.6769 3.98976 19.1667 5.83333 19.1667H14.1667C16.0102 19.1667 17.5 17.6769 17.5 15.8333C17.5 13.9898 16.0102 12.5 14.1667 12.5H5.83333Z"
+                fill="#36C5F1"
+              />
+              <path
+                d="M14.1667 2.5C12.3231 2.5 10.8333 3.98976 10.8333 5.83333C10.8333 7.6769 12.3231 9.16667 14.1667 9.16667H16.6667C17.1269 9.16667 17.5 8.79357 17.5 8.33333V5.83333C17.5 3.98976 16.0102 2.5 14.1667 2.5Z"
+                fill="#36C5F1"
+              />
+              <path
+                d="M24.1663 2.5C22.3228 2.5 20.833 3.98976 20.833 5.83333V14.1667C20.833 16.0102 22.3228 17.5 24.1663 17.5C26.0099 17.5 27.4997 16.0102 27.4997 14.1667V5.83333C27.4997 3.98976 26.0099 2.5 24.1663 2.5Z"
+                fill="#2DB67E"
+              />
+              <path
+                d="M34.1663 10.8333C32.3228 10.8333 30.833 12.3231 30.833 14.1667V16.6667C30.833 17.1269 31.2061 17.5 31.6663 17.5H34.1663C36.0099 17.5 37.4997 16.0102 37.4997 14.1667C37.4997 12.3231 36.0099 10.8333 34.1663 10.8333Z"
+                fill="#2DB67E"
+              />
+            </svg>
+            <p>Slack</p>
+          </div>
+          <div
+            class="rounded-[6px] bg-white shadow-[0px_8px_24px_0px_rgba(18,19,20,0.04)] w-24 h-auto py-6 flex flex-col items-center"
+          >
+            <img
+              class="w-8 h-10"
+              src="https://s3-alpha-sig.figma.com/img/c422/ff21/4ecdb55da02af6dc6b26519b0ca621e3?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=WbUQoNlDhBCsjXgFSlr99h0DltvcP~G4vOp9Cd~EZmc6~ChYOIHUdeq4aoIy5eQbXtOKyFo-g4SE0M6BQXQevk08Le9KyvytPGPblmdwOroF-VDoyzOfMhBaxBjbcK1vpbCBKbZqqxKo1kl-UVwWE3o6PuEBAvvEdUtgI5cnsYyUKfzGzAXgeXQWW1Y7Dk-tUt07lpLps9fMqJzEJul-jo3B63CosgV-ZISxSOcEIZEEf35jkg1EmJnz0cHhuvvvHpDTIw7ISxw3gzKxmsTTLSBxWDXHgSwT9STwI71YYZXWcB0XtlN4c9dlCyEIUKpe4wsKucRWr-zzgqdSvqu2vg__"
+              alt=""
+            />
+            <p>Figma</p>
+          </div>
+          <div
+            class="rounded-[6px] bg-white shadow-[0px_8px_24px_0px_rgba(18,19,20,0.04)] w-24 h-auto py-6 flex flex-col items-center"
+          >
+            <img
+              class="w-10 h-10"
+              src="https://s3-alpha-sig.figma.com/img/a26a/73c5/3623515142d286b3125bf6ed60bdabca?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=kv9aEtV4Jajrrg63i81ucbaU1HpXlr9BoDixrpWNvnthd5SOCGWg0LWAG-FEuVAC7I31d7YklfEwLxc6m~sg5d2SMao80XEQJIqLvV4EYNtMIeV7yVy-aiIvH2EtDiUE786N2msOZV2C90Fzzis5rfhq2SDDwv05gHrpFbSRJ2cOCMY1I39p5yMKA7k4GyFRKi1iitkjHOvlV-BK2qP3CYpUz~QtrEmqJX-cVHdfe9oUg4ZSJV5XcmZzGgc~FQpFjb~eULivDNycIgQA~1jEkevzBNCTH48wOJ5~tMq6dPR3LPiRTocs-Z6AObbQS2ZfAwo-6MHp1zOTY4dQkpN3LA__"
+              alt=""
+            />
+            <p>Sketch</p>
+          </div>
+          <div
+            class="rounded-[6px] bg-white shadow-[0px_8px_24px_0px_rgba(18,19,20,0.04)] w-24 h-auto py-6 flex flex-col items-center"
+          >
+            <img
+              class="w-10 h-10"
+              src="https://s3-alpha-sig.figma.com/img/cd7a/adde/9286709170d50453ab743073dfbe6520?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Lp0vqLTDbKwZX-yOhzGTge9Sj9YWmpM4z1Zt8gNgxVbTe5dJlMlA1qBu4p6h62WbzOrxBWMd1yZMdwOx~dAXLKogmNJ3BvS1dr4iegFWfOgZraxIOzyXZsV4Icsdz9ZKhWoiyO-K4Jw5UuJpvLs0QeF~ydyhI3swMYiTgbPADi7t4NnRPzJElw9Ty~iFtUrtUlbFsGcWY9OK8DyDIR6In3HFleOVvxuLDk6H42eJxGNC9MeI5dU-gWDUQjvoazJmmmYF~W~lW0SQwaXPaCH9QoEwO4afyY20gJE91DBLcTcj78IQ-LvpqjufVhMM41ixYxvqnOh7nvSWbp0D2gwa0w__"
+              alt=""
+            />
+            <p>Photoshop</p>
+          </div>
+          <div
+            class="rounded-[6px] bg-white shadow-[0px_8px_24px_0px_rgba(18,19,20,0.04)] w-24 h-auto py-6 flex flex-col items-center"
+          >
+            <img
+              class="w-10 h-10"
+              src="https://s3-alpha-sig.figma.com/img/9262/5841/d0256aceae30b609c49f26ab809d95c2?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=g-lQLlY52XQFaJ4baCc1F4QS7~~dSkANGBGaKwjH6nffA3X~Fxh0DVi3DkRQW1fHg3SwTOk4tnrJB2qqiYGePWSaRxDP8-9MJYO5SBgfu9eUBp7HkzLkYC-pExMonvYFe5AOl~HjSLHdNZmdWkmV7XoWCzeZgBh4el6wuGDXVid-1DVhCWTmli6~2DzystA8E4MTVgABqStMPfUQB52B7U35wkb0-5YERgzn-OcM5jESlvvvRT0YGJHJPprAyTV3jy6lzzDt8WQbLidqskzBrdXqJ~USuuBYQL3tmvRTlFqSqSYu925oBXhy6hs-lZUJvYmfWG-0BtKfsrV5FXJoxA__"
+              alt=""
+            />
+            <p>Illustrator</p>
+          </div>
+          <div
+            class="rounded-[6px] bg-white shadow-[0px_8px_24px_0px_rgba(18,19,20,0.04)] w-24 h-auto py-6 flex flex-col items-center"
+          >
+            <img
+              class="w-10 h-10"
+              src="https://s3-alpha-sig.figma.com/img/c437/4646/9bc8e50a8ed072b5e4ab9f537f6845d4?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IXn~4P~tuJIf7ZM8zSpq5dQsZfgud93z8kW2M3FX-PgvGVrB33chi-sb79o-9ilnHvuhcg9DwG8TWZKa4utJTvqo-PlPUokZ8iC2l5h1kAtbQ7Nx2ED7GZWxBibvMb9tYK2irRpzKXRvxQBXraY83VvOMeW7-~yyTlSlapKjkGyaJcQXXDR9-6JZ~7RJ3Zg1CnaSFw78-Xj~OCoi47DHPVTP7mbYfX0~BT47KM8ltVu7wbNW5Nkn~89z1QsWNqtj0lJ-t64-aL3ECYv~TVxIFAZ2SqKH6hvLyahMOaiLvN83ipuB9a3mczraK4db2bdGK43KkBJNywvFnrkTkuRtpw__"
+              alt=""
+            />
+            <p>Adobe XD</p>
+          </div>
+          <div
+            class="rounded-[6px] bg-white shadow-[0px_8px_24px_0px_rgba(18,19,20,0.04)] w-24 h-auto py-6 flex flex-col items-center"
+          >
+            <img
+              class="w-10 h-10"
+              src="https://s3-alpha-sig.figma.com/img/ff9c/b46b/d75d65e9a4c4c315117e3b87a7c4bfae?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=fK4E7rC1cD0e6IicSCq6Lydns6YVq6d04hZIoOJjnzxum7cLGTNP41t8TEwh~OT4qlWYdGAnPoRldJyIJZdmOLtx-4Go7s63NfVftEb5LAwLjYOOGyZn2NioJiVArnNautlqD1edXAUn0AWFCwdiZ1cDQGgjYiMVZWabWUt1MkuNcrPZBQ2i6t0arJaUWuTmA2dCGl7EnLm0Zh4UnXVs2Nz9HxOOd5W5I31xjUVFfFDfvO4-5aeWcny62snBmkXs7dBtwqwCCr9rgAd-DOdRE9SvY7qr2NU06t8HlzCKqZ3TVcsYsaF54-~gBr5~5NYC3VzFzieC9ICFYXDu~TsYtw__"
+              alt=""
+            />
+            <p>Notion</p>
+          </div>
+          <div
+            class="rounded-[6px] bg-white shadow-[0px_8px_24px_0px_rgba(18,19,20,0.04)] w-24 h-auto py-6 flex flex-col items-center"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="40"
+              height="40"
+              viewBox="0 0 40 40"
+              fill="none"
+            >
+              <path
+                d="M27.475 16.175L24.8183 24.5617L22.9433 10C18.76 10 16.51 12.9967 15.3367 16.1567L12.0967 24.58L11.6417 16.2467C11.395 12.3733 7.85833 10.0167 5 10.0167L8.45667 31.0833C12.84 31.0667 15.2067 28.0867 16.445 24.9267L19.185 17.765C19.21 18.0567 21.0783 31.085 21.0783 31.085C25.4817 31.085 27.8483 28.29 29.1167 25.2383L35.2833 10.0183C30.9417 10.0183 28.6533 12.9967 27.4717 16.175H27.475Z"
+                fill="#4353FF"
+              />
+            </svg>
+            <p>Webflow</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Achievements section starts here-->
+    <div
+      class="flex flex-wrap justify-evenly px-[50px] md:px-[100px] py-[80px]"
+    >
+      <!--left content-->
+      <div class="flex-col w-80% md:max-w-[50%]">
+        <div
+          class="flex gap-6 p-8 items-center rounded-[8px] bg-gray-white shadow-[0px_24px_88px_-16px_rgba(18,19,20,0.06)]"
+        >
+          <div class="p-[23px] bg-[#F5F6F7]">
+            <p class="text-xl md:text-[36px]">W.</p>
+          </div>
+          <div class="flex-col">
+            <h1 class="font-semibold">Awwwards Judge '19-20</h1>
+            <p class="text-[16px] text-[#5E6971]">
+              Awwwards is a professional web design and development competition
+              body. It aims to recognize and promote.
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="flex gap-6 p-8 items-center mt-8 rounded-[8px] bg-gray-white shadow-[0px_24px_88px_-16px_rgba(18,19,20,0.06)]"
+        >
+          <div class="p-[23px] bg-[#F5F6F7]">
+            <p class="text-xl md:text-[36px]">📜</p>
+          </div>
+          <div class="flex-col">
+            <h1 class="font-semibold">Site of the Years for Lewis</h1>
+            <p class="text-[16px] text-[#5E6971]">
+              Lewis University offers practical, goal-oriented education for
+              undergraduate student, graduate.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!--right content-->
+      <div
+        class="flex-col w-80% md:max-w-[40%] p-8 rounded-[8px] bg-gray-white shadow-[0px_24px_88px_-16px_rgba(18,19,20,0.06)]"
+      >
+        <!-- Added flex-1 and max-w-[45%] -->
+        <h1 class="text-3xl md:text-4xl font-semibold mb-6">My achievments</h1>
+        <p>
+          Sed semper, felis at facilisis auctor, justo eros vulputate nulla,
+          dapibus suscipit augue ex id dui. Integer a elit id enim eleifend
+          tristique sed vel sem. Donec sodales urna sit amet mauris volutpat
+          pellentesque. Suspendisse potenti. In ornare convallis nisi ut
+          viverra.
+        </p>
+        <div class="p-4 mt-6 rounded-[3px] bg-[var(--Gray-50,#F5F6F7)]">
+          <p class="uppercase font-semibold">Languages I can speak</p>
+          <ul class="font-semibold">
+            <li
+              class="inline-flex items-center gap-2 text-[#1777E5] me-[20px] font-[20px]"
+            >
+              <span class="w-1 h-1 bg-[#1777E5] rounded-full"></span>
+              English
+            </li>
+            <li
+              class="inline-flex items-center gap-2 text-[#9249F2] me-[20px] font-[20px]"
+            >
+              <span class="w-1 h-1 bg-[#9249F2] rounded-full"></span> Mandarin
+            </li>
+            <li
+              class="inline-flex items-center gap-2 text-[#2DB24A] me-[20px] font-[20px]"
+            >
+              <span class="w-1 h-1 bg-[#2DB24A] rounded-full"></span> Spanish
+            </li>
+            <li
+              class="inline-flex items-center gap-2 text-[#FF5F49] font-[20px]"
+            >
+              <span class="w-1 h-1 bg-[#FF5F49] rounded-full"></span> Hindi
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!--Achievements section ends here-->
+
+    <!--Services section starts here-->
+    <div
+      class="flex flex-wrap flex-col items-center text-center px-[40px] md:px-[100px] py-[80px] bg-[url('https://s3-alpha-sig.figma.com/img/b532/a3e2/a5c7978b442d5b842c8d236db55b6460?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IrT4RgGqWejWxQQFCeuFIbNikB3yHPJEt~cvIHHJPdf2lvWOwr4ZHuODpg4fC0~FJjxCmdXy7EurHZbN3RBdK0hfX0LiQ8bYnafIQG6BFpgtDnwFyULV44Vy4PbfJUO54zgCuUMd8ia8ZLiTEmM14-F2ExcjlPvtaHyhduhurHaNpPEsmBPm~3iNRoLu0Y~4KFCl1Acm-k8uJ3HRKTZ9DGDsLeg7dXeR8d16kkg08fHdu1qkqyYP3To-5OhGj8Kp2EE0EBdNjMJ630S7f7D~6vb6Lt3Kck8jCUV4HhjA~S2cyEYKKWCKodedE8citRmePDqwp5wsLWHB0q~SPFDENQ__')] bg-lightgray bg-center bg-cover bg-no-repeat"
+    >
+      <!-- heading -->
+      <div class="w-[300px] md:w-[563px]">
+        <h1 class="font-semibold text-3xl md:text-[48px] mb-6">
+          Service I provide
+        </h1>
+        <p>
+          I specialize in UI/UX & Graphic Design and my passion is all about
+          building elegant and professional user interfaces.
+        </p>
+      </div>
+      <!-- cards -->
+      <div class="flex flex-wrap items-center text-center gap-6 mt-[72px]">
+        <!-- card 1 -->
+        <div
+          class="rounded-lg bg-white w-[262px] md:w-[306px] py-8 px-6 flex-col items-center"
+        >
+          <div
+            class="w-[88px] h-[88px] m-auto rounded-[120px] bg-[var(--Gray-White,#FFF)] shadow-[0px_32px_32px_-12px_rgba(18,19,20,0.05)]"
+          >
+            <p class="text-[40px]">🛠️</p>
+          </div>
+          <h1 class="font-semibold text-[20px] mt-8">User Interface Design</h1>
+          <p class="text-[14px] text-[#7B848B] mt-3">
+            Proin egestas, nisi vitae hendrerit maximus, mauris nunc facilisis
+            odi.
+          </p>
+        </div>
+
+        <!-- card 2 -->
+        <div
+          class="rounded-lg bg-white w-[262px] md:w-[306px] py-8 px-6 flex-col items-center"
+        >
+          <div
+            class="w-[88px] h-[88px] m-auto rounded-[120px] bg-[var(--Gray-White,#FFF)] shadow-[0px_32px_32px_-12px_rgba(18,19,20,0.05)]"
+          >
+            <p class="text-[40px]">📢</p>
+          </div>
+          <h1 class="font-semibold text-[20px] mt-8">Product Marketing</h1>
+          <p class="text-[14px] text-[#7B848B] mt-3">
+            Proin egestas, nisi vitae hendrerit maximus, mauris nunc facilisis
+            odi.
+          </p>
+        </div>
+
+        <!-- card 3 -->
+        <div
+          class="rounded-lg bg-white w-[262px] md:w-[306px] py-8 px-6 flex-col items-center"
+        >
+          <div
+            class="w-[88px] h-[88px] m-auto rounded-[120px] bg-[var(--Gray-White,#FFF)] shadow-[0px_32px_32px_-12px_rgba(18,19,20,0.05)]"
+          >
+            <p class="md:text-[40px]">🚀</p>
+          </div>
+          <h1 class="font-semibold text-[20px] mt-8">Webflow Development</h1>
+          <p class="text-[14px] text-[#7B848B] mt-3">
+            Proin egestas, nisi vitae hendrerit maximus, mauris nunc facilisis
+            odi.
+          </p>
+        </div>
+
+        <!-- card 4 -->
+        <div
+          class="rounded-lg bg-white w-[262px] md:w-[306px] py-8 px-6 flex-col items-center"
+        >
+          <div
+            class="w-[88px] h-[88px] m-auto rounded-[120px] bg-[var(--Gray-White,#FFF)] shadow-[0px_32px_32px_-12px_rgba(18,19,20,0.05)]"
+          >
+            <p class="text-[40px]">✍</p>
+          </div>
+          <h1 class="font-semibold text-[20px] mt-8">Content Writing</h1>
+          <p class="text-[14px] text-[#7B848B] mt-3">
+            Proin egestas, nisi vitae hendrerit maximus, mauris nunc facilisis
+            odi.
+          </p>
+        </div>
+      </div>
+
+      <button
+        class="bg-[#1777E5] mt-[72px] font-semibold rounded-sm px-8 py-4 me-6 flex items-center gap-2 text-white about-button"
+      >
+        Request Quote<span
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+              fill="white"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+            />
+            <path
+              d="M12.5723 15.178L15.7504 11.9999L12.5723 8.82178"
+              stroke="#1777E5"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8.25 12H15.75"
+              stroke="#1777E5"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+    <!--Services section ends here-->
+
+    <!--Project section starts here-->
+    <div
+      class="flex flex-wrap flex-col items-center text-center px-[40px] md:px-[100px] py-[80px]"
+    >
+      <h1 class="font-semibold text-3xl md:text-[48px] mb-16">
+        Personal Project
+      </h1>
+      <!--Project cards-->
+      <div class="flex flex-wrap gap-6">
+        <!-- card 1 -->
+        <div class="flex-col w-[300px] md:w-[424px] h-auto">
+          <div
+            class="w-[280px] md:w-[424px] h-[306px] rounded-[10px] bg-[url('https://s3-alpha-sig.figma.com/img/40c7/536a/1daaad00233c9942c80d2a54be23a28f?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=Dr2DhNrXB9NPujP7N6iS76ijfs35q9jjp2dD64uAcsDUqY-FJSvyJRXxku~TPpVJJyJcHCpLxAfFseYmrzUM~WtjPmcavegCm7~qNCGWjOADgw67ZZmJBDjfSXGCnXXTQkNnFrDkJfudZQjvmA8Xq9vDvSDQ0rPsTQxInfcajGE89xj7aebS6ENG9g8z3SzaZuiSyil4jzyH-TYSd6uB5EnSlbmkb3mdW~6PuCEbMerYA2NfULiV9eLmPsZgkt9Wffpfh-0AWDlogt5~TX~u95QZT-muLhGK~iuG7WHHR7XKZW~d1OIh2esU7n5~YF-qKHf9wYnn0XwjumBd4lMwtA__')] bg-lightgray bg-center bg-cover bg-no-repeat"
+          ></div>
+          <h1 class="font-semibold text-2xl mt-8 mb-3">
+            Drawing (2016 - 2022)
+          </h1>
+          <p class="font-[18px] text-[#5E6971]">
+            Aliquam hendrerit quis nisl eget varius. Duis viverra vel quam sed
+            posuere. Praesent tempor cursus semeu.
+          </p>
+        </div>
+
+        <!-- card 2 -->
+        <div class="flex-col w-[300px] md:w-[424px] h-auto">
+          <div
+            class="w-[280px] md:w-[424px] h-[306px] rounded-[10px] bg-[url('https://s3-alpha-sig.figma.com/img/0aed/12d3/f32fd2a17dffc5a0d978ed0e8d309d15?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=RrXfYF77wxbBoA5PjLru4IwNJ34g02C-wDs~PLYKmbuPEL3FY9NB~LIwW1tbDYlpQe36s6lF7S1ATkpcVpm1d92r0UxJctHNZh022pVT2-Sth-KZ3WyEhKNHYan~wEwXU-X4TqMKtpvplb1tdwtb6qhb1nNaR9cXgGh-RI~wW6tgngEjBIASJfud7g6kxaI9hfwvbNGpUNHgN5H3ar4cjske0BN67ZBM1XVtxEMs42pYN9-Cj1b7SGr5cljvQBqgoIBdPbRaNa4wbw69uNbySkAjC~d5k2IHXMhZKRfkva~61bGyZYCennqAA6leftTgK862ixthbhQYHwpwJSnfYQ__')] bg-lightgray bg-center bg-cover bg-no-repeat"
+          ></div>
+          <h1 class="font-semibold text-2xl mt-8 mb-3">
+            Drawing (2016 - 2022)
+          </h1>
+          <p class="font-[18px] text-[#5E6971]">
+            Aliquam hendrerit quis nisl eget varius. Duis viverra vel quam sed
+            posuere. Praesent tempor cursus semeu.
+          </p>
+        </div>
+
+        <!-- card 3 -->
+        <div class="flex-col w-[300px] md:w-[424px] h-auto">
+          <div
+            class="w-[280px] md:w-[424px] h-[306px] rounded-[10px] bg-[url('https://s3-alpha-sig.figma.com/img/566d/79a3/272623eff6ddaef8614d7ae7dad7bf59?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZTNfxpKia1tY7oPHSCGtpGqjyHGVSHsPqzro86zMGt8tzsUHxBMGBopIusC6TRNQvkwjlW-A8NWgodJG5R56yIZFtPUGpJhUrYdvAmCUc-tUvAS9x2nz3qi4uWJSQ4DlWizNf2hU6Hzon61r3PzsHIlrqK6wRNJlouQ0qrT0EKQetGlNhqMLPODlGYw-Bkuxn4CbUqK7VSfJDD2n6tI8pRlsmWJ76xvAiDfCvAGS9frLW7GS49k5rG8DTJCsqO8OG9Vi~zxAWLgOyooZvIpa9suP5RA4Q2yNJtFCNlW7JP9cF75VcpH7XPXTxMKbm20qM9qBz9kUSYpWjAlLI60~Nw__')] bg-lightgray bg-center bg-cover bg-no-repeat"
+          ></div>
+          <h1 class="font-semibold text-2xl mt-8 mb-3">
+            Drawing (2016 - 2022)
+          </h1>
+          <p class="font-[18px] text-[#5E6971]">
+            Aliquam hendrerit quis nisl eget varius. Duis viverra vel quam sed
+            posuere. Praesent tempor cursus semeu.
+          </p>
+        </div>
+      </div>
+    </div>
+    <!--Project section ends here-->
+
+    <!--Dribbble shots-->
+    <div
+      class="flex flex-wrap flex-col items-center text-center px-[40px] md:px-[100px] mb-[80px]"
+    >
+      <div class="w-[90%] flex mb-16 items-center">
+        <h1 class="font-semibold text-xl md:text-3xl me-6 md:me-16">
+          Latest Dribbble Shots
+        </h1>
+        <!-- Previous button -->
+        <button
+          onclick="moveSlider('prev')"
+          class="rounded-[130px] border border-[var(--Main-100,#D1E4FA)] bg-[var(--Gray-White,#FFF)] p-2 hover:bg-gray-50 cursor-pointer"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M20.25 12H3.75"
+              stroke="#1777E5"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M10.5 5.25L3.75 12L10.5 18.75"
+              stroke="#1777E5"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+
+        <!-- Next button -->
+        <button
+          onclick="moveSlider('next')"
+          class="ms-6 rounded-[130px] border border-[var(--Main-100,#D1E4FA)] bg-[var(--Gray-White,#FFF)] p-2 hover:bg-gray-50 cursor-pointer"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M3.75 12H20.25"
+              stroke="#1777E5"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M13.5 5.25L20.25 12L13.5 18.75"
+              stroke="#1777E5"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!--slider-->
+      <div class="w-full max-w-full overflow-hidden">
+        <!-- Added fixed width -->
+        <div id="slider" class="flex gap-4 transition-transform duration-300">
+          <div
+            class="w-[30%] md:w-[32%] h-[318px] flex-shrink-0 bg-[url('https://s3-alpha-sig.figma.com/img/6384/ae31/7ee295faaf3d8ab3cc5bfc01c7fd2804?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=j13jI9JwUS720yvxKEOb27mbLQuqy348sGyR2udNHh3OvUdvAb102PxiB3cf0YzOUKnaR0AKGYOnp5Y1lxAGxlRbqXKFcplU4Rr6HfOnJYwCFVKv9vdJY1uP3V2UR-UV7IWwNz7EejPoCbAZlSAyita1bcDYIPVyXR6lj-HBMPSWc~bsmAjwFgusyyKCuQX-0f58xdZ0vYQ~MVNPr2vEEa2pFNYQVjfrtV6TULYEIdsa0Ox37xxaDNHU2Hc6fsIp2yJfyhw9B0eYwHKv8tQ5nS5XybhY-lh~zQVqHHs9kBBrzh1YgeqlSpRweUyk1507hb~fBbzLYLOwkZbaqnkkHw__')] bg-lightgray bg-center bg-cover bg-no-repeat"
+          ></div>
+          <div
+            class="w-[30%] md:w-[32%] h-[318px] flex-shrink-0 bg-[url('https://s3-alpha-sig.figma.com/img/2db9/b823/8ca0587dde6c04e7e3387d93fc594752?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=iDxixqcbdMjkvrpk5Gl3kUYIc~fK3ZyyFYN6hxgud4jW6bLhR1z9-dN95PcCJf1ulpcd3RjoV0AJR1PCEORixzYVMtutacM4Ji4A4o3B93tfKG96vAalev2VA9-L5eRQ3nY~XVuki27UHBzLDnDvLzejm1b9c8iwSIjlhFbxq76-uAHOHwxM4W-un5BXJ1mEIfTFWRtSYbofuOAfTjQf9WYrVoDz4D3X6Km3UBFwQbyVSDrzCfp2K~w5fDe5LJg9ktrpk0G6Ua2oHkDuES8nCN9MPsqnOANgvOUR~i0Uahvnstw7gciAhZxAXPnWRp81wds6JXwXzyyTBfJ~Lp~ffg__')] bg-lightgray bg-center bg-cover bg-no-repeat"
+          ></div>
+          <div
+            class="w-[30%] md:w-[32%] h-[318px] flex-shrink-0 bg-[url('https://s3-alpha-sig.figma.com/img/4d20/76de/7cc24514aef91e108457d1539e492022?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IUv6DU-qpLXxG1AkCz06B-s8tllH55k~O1fObRdukic19OuxefjlfoZXsltogN7oe0qphJIp16Bg9tyyZluzxc7800phGh5a7Qxw4sJWMzA2rJwkkFbkDIDRQTEAEkz~DrAiCsrWlz46gserqcq2vVES6DX~Sf-km~-QpjzRx1g2whdDIgRZarFsV62d89-BNZOHHJSsmQcs~rcm8NMTrgGi1EIXl703R7dDHMzltMuvUZImYeHHqjWENeiDZg6NMo8QHa3LlQhsgVvPXtCjDdSkuGzUv57UyhGuEhMFy0WbkWUnUGG9wEFxjfp4l4C7j3FcG1JFw5e5Z5xZs391Pg__')] bg-lightgray bg-center bg-cover bg-no-repeat"
+          ></div>
+          <div
+            class="w-[30%] md:w-[32%] h-[318px] flex-shrink-0 bg-[url('https://s3-alpha-sig.figma.com/img/b980/6883/20eaec99ea5ba30ea441c42bd38ed90b?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=B-MGjS-MpXAhJdGx3fMneZA~bIrFJEHbhOeCL7eCQzah0KfUCKG7Hr2zjWzWO9mnBRpCJg92WkdHKnbvX2dudMhlOLHpDvQM0rC3T5krFQb3pGu~ZMw2VYJ9z5EaLSXepIygy6KpOpPOxDem6-4IGGhosHHDFoHON9AdSKxklOYQl3ynRDJN~2GWASnMZjeKlEDaSFMuv72YN40~BWCEs-S-LbTln4ADWmUk0T0f-cApc~6hMz374qNvYSGYaPRgJIiBkjgfdHrLdvXMIUu1EBFAfUBDneFZH2p5BmuTP0jyF5doZQQCOX1QSunmBueDWFzm-MTLTv-YSDgtVRkmZA__')] bg-lightgray bg-center bg-cover bg-no-repeat"
+          ></div>
+          <div
+            class="w-[30%] md:w-[32%] h-[318px] flex-shrink-0 bg-[url('https://s3-alpha-sig.figma.com/img/8620/d398/9809c901db20cc876a82028659c00e14?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=bPSUUdykb07223KeEXb80HvdXZqkh~xB3CDP3FYptzaVI9XpOvmYDptncZtfgE3eojk3yU7FVe1q~UW0dMAk2MrtMvU-J~qSVwyDtDqVHhAj2F0uLHwUvhr3m3-MaOkbRMIEVlMJrCw3YBTVEKS2zz6e84jgo-3nPzZQ0yc40TwVy1vA4D02leldMMBqcaO15JJLtqVcoSNjn1rvQ01J7KH2XAIA5t7HWYSY6u4z0NEvKPC7Vf6OEt4RL~3c2peE4bFTLRL-yVUzsVcpdm~anEdm1I49mG1YjlrLyW2Bd-VUTLr~fRMgAsPrDuZi89--z4~WOoUJo87Rm1bBj~N41w__')] bg-lightgray bg-center bg-cover bg-no-repeat"
+          ></div>
+        </div>
+      </div>
+    </div>
+
+    <!--contact section-->
+    <div
+      class="flex flex-wrap flex-col items-center text-center px-[40px] md:px-[100px] pt-[80px] bg-[url('https://s3-alpha-sig.figma.com/img/b532/a3e2/a5c7978b442d5b842c8d236db55b6460?Expires=1737936000&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=IrT4RgGqWejWxQQFCeuFIbNikB3yHPJEt~cvIHHJPdf2lvWOwr4ZHuODpg4fC0~FJjxCmdXy7EurHZbN3RBdK0hfX0LiQ8bYnafIQG6BFpgtDnwFyULV44Vy4PbfJUO54zgCuUMd8ia8ZLiTEmM14-F2ExcjlPvtaHyhduhurHaNpPEsmBPm~3iNRoLu0Y~4KFCl1Acm-k8uJ3HRKTZ9DGDsLeg7dXeR8d16kkg08fHdu1qkqyYP3To-5OhGj8Kp2EE0EBdNjMJ630S7f7D~6vb6Lt3Kck8jCUV4HhjA~S2cyEYKKWCKodedE8citRmePDqwp5wsLWHB0q~SPFDENQ__')] bg-lightgray bg-center bg-cover bg-no-repeat"
+    >
+      <h1 class="w-full max-w-2xl font-semibold text-[20px] md:text-5xl">
+        Have a project idea in mind.
+      </h1>
+      <h1 class="w-full max-w-2xl mb-16 font-semibold text-[20px] md:text-5xl">
+        Get in touch and let's chat!
+      </h1>
+
+      <div class="w-full flex flex-wrap gap-6 justify-center mb-16">
+        <div class="w-64 md:w-72 flex flex-col items-center">
+          <svg
+            class="mb-6"
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <path
+              d="M35.712 4.29733C34.8787 3.44566 33.6454 3.13066 32.4954 3.46399L5.67871 11.2123C4.46537 11.549 3.60537 12.5107 3.37371 13.7307C3.13704 14.974 3.96371 16.554 5.04371 17.214L13.4287 22.334C14.2887 22.8607 15.3987 22.729 16.1104 22.0157L25.712 12.414C26.1954 11.9123 26.9954 11.9123 27.4787 12.414C27.962 12.8957 27.962 13.6807 27.4787 14.1807L17.8604 23.7823C17.147 24.4957 17.0137 25.6023 17.5387 26.464L22.662 34.8807C23.262 35.879 24.2954 36.4473 25.4287 36.4473C25.562 36.4473 25.712 36.4473 25.8454 36.429C27.1454 36.264 28.1787 35.379 28.562 34.129L36.512 7.51399C36.862 6.38066 36.5454 5.14733 35.712 4.29733Z"
+              fill="#1777E5"
+            />
+            <path
+              opacity="0.4"
+              d="M15.752 31.9039C16.2387 32.3923 16.2387 33.184 15.752 33.6723L13.4753 35.9473C13.232 36.1923 12.912 36.3139 12.592 36.3139C12.272 36.3139 11.952 36.1923 11.7087 35.9473C11.2203 35.459 11.2203 34.6689 11.7087 34.1806L13.9837 31.9039C14.472 31.4173 15.2637 31.4173 15.752 31.9039ZM14.4458 25.5906C14.9325 26.0789 14.9325 26.8706 14.4458 27.3589L12.1692 29.6339C11.9258 29.8789 11.6058 30.0006 11.2858 30.0006C10.9658 30.0006 10.6458 29.8789 10.4025 29.6339C9.91416 29.1456 9.91416 28.3556 10.4025 27.8673L12.6775 25.5906C13.1658 25.1039 13.9575 25.1039 14.4458 25.5906ZM8.17716 23.6033C8.66383 24.0916 8.66383 24.8833 8.17716 25.3716L5.9005 27.6466C5.65716 27.8916 5.33716 28.0133 5.01716 28.0133C4.69716 28.0133 4.37716 27.8916 4.13383 27.6466C3.64549 27.1583 3.64549 26.3683 4.13383 25.8799L6.40883 23.6033C6.89716 23.1166 7.68883 23.1166 8.17716 23.6033Z"
+              fill="#1777E5"
+            />
+          </svg>
+
+          <p class="text-[16px] text-[#5E6971]">Email Address</p>
+          <p class="text-xl md:text-2xl font-semibold">howardstark@info.com</p>
+        </div>
+
+        <div class="w-[80%] md:w-[30%] flex flex-col items-center me-6">
+          <svg
+            class="mb-6"
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <g opacity="0.4">
+              <path
+                d="M24.0298 9.15025C23.2364 9.00368 22.5077 9.51 22.3567 10.2845C22.2056 11.0589 22.7135 11.8151 23.4854 11.9666C25.8091 12.4197 27.6034 14.2184 28.0582 16.5502V16.5518C28.1877 17.223 28.7786 17.711 29.4591 17.711C29.5504 17.711 29.6417 17.7027 29.7346 17.6861C30.5065 17.5312 31.0144 16.7767 30.8633 16.0005C30.1845 12.5179 27.5038 9.82812 24.0298 9.15025Z"
+                fill="#1777E5"
+              />
+              <path
+                d="M23.9251 3.34671C23.5533 3.29342 23.1798 3.40334 22.8827 3.63984C22.5773 3.87968 22.3864 4.22611 22.345 4.61418C22.257 5.39864 22.823 6.10815 23.6064 6.19642C29.0092 6.79934 33.2086 11.0081 33.8161 16.4277C33.8974 17.1539 34.5066 17.7019 35.2336 17.7019C35.2883 17.7019 35.3415 17.6985 35.3962 17.6919C35.7763 17.6502 36.1149 17.462 36.354 17.1622C36.5913 16.8624 36.6992 16.4894 36.6561 16.1079C35.8992 9.34593 30.6657 4.09786 23.9251 3.34671Z"
+                fill="#1777E5"
+              />
+            </g>
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M18.3859 21.6206C25.0344 28.2673 26.5426 20.5779 30.7758 24.808C34.8568 28.8879 37.2024 29.7053 32.0317 34.8745C31.3841 35.395 27.269 41.6571 12.8073 27.1994C-1.65612 12.74 4.60232 8.62074 5.12296 7.97325C10.3061 2.78974 11.1094 5.14897 15.1905 9.22888C19.4236 13.4608 11.7374 14.974 18.3859 21.6206Z"
+              fill="#1777E5"
+            />
+          </svg>
+
+          <p class="text-[16px] text-[#5E6971]">Phone Number</p>
+          <p class="text-xl md:text-2xl font-semibold">(406) 555-0120</p>
+        </div>
+
+        <div class="w-[80%] md:w-[30%] flex flex-col items-center me-6">
+          <svg
+            class="mb-6"
+            xmlns="http://www.w3.org/2000/svg"
+            width="40"
+            height="40"
+            viewBox="0 0 40 40"
+            fill="none"
+          >
+            <path
+              d="M10.6898 37.4988H18.5193V19.7807H25.9689V37.5H33.75V13.2279H18.5193V11.7237C18.5193 10.0729 19.6649 9.05403 21.4795 9.05403H25.9677V2.5H20.1911C14.509 2.5 10.6898 6.04435 10.6898 11.2371V13.2279H6.25V19.7819H10.6898V37.4988Z"
+              fill="#1777E5"
+            />
+          </svg>
+
+          <p class="text-[16px] text-[#5E6971]">Available on Fiverr.</p>
+          <p class="text-xl md:text-2xl font-semibold">howard.stark123</p>
+        </div>
+      </div>
+
+      <button
+        class="bg-[#1777E5] mt-16 mb-[80px] font-semibold rounded-sm px-8 py-4 me-6 flex items-center gap-2 text-white about-button"
+      >
+        Request Quote<span
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+          >
+            <path
+              d="M12 21C16.9706 21 21 16.9706 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21Z"
+              fill="white"
+              stroke="white"
+              stroke-width="1.5"
+              stroke-miterlimit="10"
+            />
+            <path
+              d="M12.5723 15.178L15.7504 11.9999L12.5723 8.82178"
+              stroke="#1777E5"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+            <path
+              d="M8.25 12H15.75"
+              stroke="#1777E5"
+              stroke-width="1.5"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            />
+          </svg>
+        </span>
+      </button>
+    </div>
+
+    <!--footer-->
+    <footer class="px-[10px] md:px-[300px] py-8">
+      <p class="text-sm md:text-[18px] text-[#5E6971] text-center">
+        All Content © 2006-Current Howard Stark and Respective Copyright
+        Holders.
+      </p>
+    </footer>
+
+    <script>
+      let currentIndex = 0;
+      const slider = document.getElementById("slider");
+      const totalSlides = slider.children.length;
+      const slidesToShow = 3;
+
+      function moveSlider(direction) {
+        if (direction === "next") {
+          currentIndex =
+            currentIndex === totalSlides - slidesToShow ? 0 : currentIndex + 1;
+        } else {
+          currentIndex =
+            currentIndex === 0 ? totalSlides - slidesToShow : currentIndex - 1;
+        }
+
+        // Calculate the translation percentage based on the current index and individual slide width
+        const slideWidth = 100 / totalSlides;
+        slider.style.transform = `translateX(-${currentIndex * slideWidth}%)`;
+
+        // Update opacity for visible/hidden slides
+        Array.from(slider.children).forEach((slide, index) => {
+          if (index >= currentIndex && index < currentIndex + slidesToShow) {
+            slide.style.opacity = "1";
+          } else {
+            slide.style.opacity = "0.3";
+          }
+        });
+      }
+
+      // Initialize first three slides to be visible
+      Array.from(slider.children).forEach((slide, index) => {
+        slide.style.opacity = index < slidesToShow ? "1" : "0.3";
+      });
+    </script>
   </body>
 </html>
